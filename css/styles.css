@@ -1,0 +1,28 @@
+h1{
+  font-weight: bold;
+}
+
+img {
+  border-radius: 2%;
+  max-width: 300px;
+  float: right;
+  border: solid black;
+  margin: 15px;
+}
+
+.box-1 {
+  width: 85%;
+  margin: auto;
+  padding: 10px;
+}
+
+.box-2 {
+  width: 80%;
+  background-color: white;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.green {
+  color: darkgreen;
+}
