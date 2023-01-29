@@ -1,6 +1,7 @@
 function handleSelect(event) {
   event.preventDefault();
   const selection = document.getElementById("questions").value;
+  console.log(selection)
 }
 
 window.addEventListener("load", function() {
@@ -15,3 +16,7 @@ function handleRadio(event) {
 window.addEventListener("load", function() {
   document.getElementById("radio-form").addEventListener("submit", handleRadio);
 });
+
+// const dob = document.getElementById("born").value;
+
+// const favoriteColor = document.getElementById("color").value;
