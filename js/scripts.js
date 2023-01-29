@@ -7,3 +7,4 @@ function handleSelect(event) {
 window.addEventListener("load", function() {
   document.getElementById("select-form").addEventListener("submit", handleSelect);
 });
+
